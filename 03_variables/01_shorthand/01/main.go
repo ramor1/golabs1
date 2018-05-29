@@ -1,6 +1,7 @@
 package main
 
 import "fmt"
+var h string = "foo"
 
 func main() {
 
@@ -19,4 +20,5 @@ func main() {
 	fmt.Printf("%v \n", e)
 	fmt.Printf("%v \n", f)
 	fmt.Printf("%v \n", g)
+	fmt.Printf("%v \n", h)
 }

@@ -1,7 +1,7 @@
 package main
 
 import "fmt"
-
+var h string = "foo"
 func main() {
 
 	a := 10
@@ -19,4 +19,5 @@ func main() {
 	fmt.Printf("%T \n", e)
 	fmt.Printf("%T \n", f)
 	fmt.Printf("%T \n", g)
+	fmt.Printf("%T \n", h)
 }
